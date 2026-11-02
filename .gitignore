@@ -1,0 +1,36 @@
+# Build products
+build/
+Debug/
+Release/
+*.o
+*.a
+*.elf
+*.hex
+*.bin
+*.map
+
+# IDE and local settings
+.vscode/
+.idea/
+.metadata/
+*.launch
+*.user
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated documentation
+site/
+
+# Python cache used by repository checks
+__pycache__/
+*.pyc
+
+# Local Python environment, datasets, and private capture logs
+.venv/
+datasets/
+captures/
+results/live*.csv
+dist/
+

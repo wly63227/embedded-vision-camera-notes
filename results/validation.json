@@ -1,0 +1,36 @@
+{
+  "checked_date": "2026-11-02",
+  "platform": "Windows",
+  "python": "3.12.14",
+  "dependencies": {
+    "opencv-python": "4.14.0.94",
+    "numpy": "2.5.4",
+    "pyserial": "3.5"
+  },
+  "python_tests": {
+    "passed": 12,
+    "skipped": 0
+  },
+  "c_application": {
+    "compiler_command": [
+      "zig.exe",
+      "cc"
+    ],
+    "warnings_as_errors": true,
+    "result": "gimbal parser, rate, stop, replay and tick-wrap tests passed"
+  },
+  "simulation": {
+    "result": "Virtual only: target=(0.500, 0.5), last tracking row=[7.9333, 0.524, 0.476, 0.023999999999999688, -0.0239999999999998, 1648, 1387, 'TRACK']",
+    "scope": "simplified_virtual_camera_only"
+  },
+  "status": "software_checks_passed",
+  "hardware_validation": "not_run_no_hardware_available",
+  "unverified": [
+    "CubeIDE/HAL integration",
+    "physical PWM/power/load/limits",
+    "real camera performance",
+    "real camera parameter writes",
+    "end-to-end sensor latency"
+  ],
+  "internal_links": "All internal Markdown file links are valid."
+}
